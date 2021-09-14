@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+
+<body style="background-color: yellow">
+    <div
+        style="background-image: url('CU.jpg'); border-radius: 18px; background-size:cover; background-repeat: no-repeat; height: 250px;">
+        <center style="background-color: red; border-radius: 18px;">
+            <u style="color:white;">
+                <h1 style="color:white;">UNIVERSITY OF CALCUTTA</h1>
+            </u>
+            <h2 style="color: white;">STUDENT ADMISSION FORM</h2>
+        </center>
+    </div>
+    <!--PERSONAL INFORMATION-->
+    <form action="action.php">
+        <section style="border: 2px rgb(37, 139, 255) solid; border-radius: 20px; background-color: white;">
+            <div>
+                <h3
+                    style="color: white; background-color: rgb(37, 139, 255); margin: 0; padding: 10px; border-radius: 18px;">
+                    PERSONAL
+                    INFORMATION---</h3>
+            </div>
+            <div style="padding-top: 20px; padding-bottom: 20px;">
+                <span style="padding-right: 5cm; padding-left: 2cm;">
+                    <label for="first name">First Name : </label>
+                    <input type="text" name="" id="first name" placeholder="First Name" required>
+                </span>
+                <span style="padding-right: 5cm;">
+                    <label for="middle name">Middle Name : </label>
+                    <input type="text" name="" id="middle name" placeholder="Middle Name">
+                </span>
+                <span>
+                    <label for="last name">Last Name : </label>
+                    <input type="text" name="" id="last name" placeholder="Last Name" required>
+                </span><br><br><br>
+                <span style="padding-right: 8cm; padding-left: 2cm;">
+                    <label for="category">Category : </label>
+                    <select name="category" id="category">
+                        <option value="general">GENERAL</option>
+                        <option value="sc">SC</option>
+                        <option value="st">ST</option>
+                        <option value="obc-a">OBC-A</option>
+                        <option value="obc-b">OBC-B</option>
+                    </select>
+                </span>
+                <span style="padding-right: 8cm;">
+                    <label for="gender">Gender : </label>
+                    <select name="gender" id="gender">
+                        <option value="none">--SELECT--</option>
+                        <option value="male">MALE</option>
+                        <option value="famele">FEMALE</option>
+                        <option value="others">OTHERS</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="dob">Date Of Birth : </label>
+                    <input type="date" name="" id="dob">
+                </span><br><br>
+            </div>
+            <center>
+                <p style="padding-left: 3cm; padding-top: 20px; padding-right: 3cm; color: red; font-size: small;">
+                    FOR <b><u> CASTE CERT. ISSUED STATE.</u></b> APPLICANTS WHO HAVE RECEIVED CASTE CERTIFICATE FROM
+                    STATES
+                    OTHER THEN WEST BENGAL <b><u>WILL BE TREATED AS GENRAL CASTE.</u></b>
+                </p>
+            </center>
+            </div>
+        </section>
+        <br>
+
+
+        <!--CONTACT INFORMATION-->
+        <section style="border: 2px rgb(37, 139, 255) solid; border-radius: 20px; background-color: white;">
+            <div>
+                <h3
+                    style="color: white; background-color: rgb(37, 139, 255); margin: 0; padding: 10px; border-radius: 18px;">
+                    CONTACT INFORMATION---
+                </h3>
+            </div>
+            <div style="padding-top: 20px; padding-bottom: 20px;">
+                <span style="padding-right: 2cm; padding-left: 2cm;">
+                    <label for="app email">Applicant Email ID : </label>
+                    <input type="email" name="" id="app email" placeholder="Email Id">
+                </span>
+                <span style="padding-right: 2cm;">
+                    <label for="app mobile">Applicant Mobile No. : </label>
+                    <input type="number" name="" id="app mobile" placeholder="Mobile No." required>
+                </span>
+                <span style="padding-right: 1cm;">
+                    <label for="con app mobile">Confirm Applicant Mobile No. : </label>
+                    <input type="number" name="" id="con app mobile" placeholder="Confirm Mobile No." required>
+                </span><br><br><br>
+                <span style="padding-right: 2cm; padding-left: 2cm;">
+                    <label for="guar email">Guardian Email ID : </label>
+                    <input type="email" name="" id="guar email" placeholder="Email Id">
+                </span>
+                <span style="padding-right: 2cm;">
+                    <label for="guar mobile">Guardian Mobile No. : </label>
+                    <input type="number" name="" id="guar mobile" placeholder="Mobile No." required>
+                </span>
+                <span style="padding-right: 1cm;">
+                    <label for="con guar mobile">Confirm Guardian Mobile No. : </label>
+                    <input type="number" name="" id="con guar mobile" placeholder="Confirm Mobile No." required>
+                </span><br><br>
+            </div>
+            <center>
+                <p style="padding-left: 3cm; padding-top: 20px; padding-right: 3cm; color: red; font-size: small;">
+                    APPLICANTS TO PROVIDE THEIR OWN MOBILE NO. AND EMAIL - ID AS ALL IMPORTANT INFORMATION WILL BE SENT
+                    IN
+                    THIS MOBILE NO. AND EMAIL - ID.
+                    DUPLICATE MOBILE NO. OR EMAILID WILL NOT BE ALLOWED
+                </p>
+            </center>
+            </div>
+        </section><br>
+
+
+
+        <!--MARKS-->
+        <section style="border: 2px rgb(37, 139, 255) solid; border-radius: 20px; background-color: white;">
+            <div
+                style="text-align: center; color: white; background-color: rgb(37, 139, 255); margin: 0; padding: 10px; border-radius: 18px;">
+                <h3>
+                    ENTER 12<sup>TH</sup> STANDARD EXAMINATION MARKS
+                </h3>
+                <p>
+                    If no practical/project marks is available in markssheet enter '0' against 'PRACTICAL/PROJECT FULL
+                    MARKS' and 'PRACTICAL/PROJECT MARKS OBTAINED'
+                </p>
+            </div>
+            <br><br>
+            <table align="center" cellpadding="20" border="2px" style="border-radius: 18px;">
+                <tr align="center">
+                    <th style="border-radius: 18px; background-color: azure;">SL NO.</th>
+                    <th style="border-radius: 18px; background-color: azure;">SELECT SUBLECT</th>
+                    <th style="border-radius: 18px; background-color: azure;" colspan="2">FULL MARKS</th>
+                    <th style="border-radius: 18px; background-color: azure;" colspan="2">OBTAINED MARKS</th>
+                </tr>
+                <tr align="center">
+                    <th></th>
+                    <th></th>
+                    <th style="background-color: rgb(236, 236, 236);">Theory</th>
+                    <th style="background-color: rgb(236, 236, 236);">practical</th>
+                    <th style="background-color: rgb(236, 236, 236);">Theory</th>
+                    <th style="background-color: rgb(236, 236, 236);">practical</th>
+                </tr>
+                <tr align="center">
+                    <td>1</td>
+                    <td><select name="sub" id="sub">
+                            <option value="none">--SELECT--</option>
+                            <option value="Bengali">Bengali</option>
+                            <option value="English">English</option>
+                            <option value="Math">Math</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Computer Science">Computer Science</option>
+                        </select></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr align="center">
+                    <td>2</td>
+                    <td><select name="sub" id="sub">
+                            <option value="none">--SELECT--</option>
+                            <option value="Bengali">Bengali</option>
+                            <option value="English">English</option>
+                            <option value="Math">Math</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Computer Science">Computer Science</option>
+                        </select></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr align="center">
+                    <td>3</td>
+                    <td><select name="sub" id="sub">
+                            <option value="none">--SELECT--</option>
+                            <option value="Bengali">Bengali</option>
+                            <option value="English">English</option>
+                            <option value="Math">Math</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Computer Science">Computer Science</option>
+                        </select></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr align="center">
+                    <td>4</td>
+                    <td><select name="sub" id="sub">
+                            <option value="none">--SELECT--</option>
+                            <option value="Bengali">Bengali</option>
+                            <option value="English">English</option>
+                            <option value="Math">Math</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Computer Science">Computer Science</option>
+                        </select></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr align="center">
+                    <td>5</td>
+                    <td><select name="sub" id="sub">
+                            <option value="none">--SELECT--</option>
+                            <option value="Bengali">Bengali</option>
+                            <option value="English">English</option>
+                            <option value="Math">Math</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Computer Science">Computer Science</option>
+                        </select></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr align="center">
+                    <td>6</td>
+                    <td><select name="sub" id="sub">
+                            <option value="none">--SELECT--</option>
+                            <option value="Bengali">Bengali</option>
+                            <option value="English">English</option>
+                            <option value="Math">Math</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Computer Science">Computer Science</option>
+                        </select></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+            <br><br>
+        </section><br>
+
+
+        <!--PASSWORD-->
+        <section style="border: 2px rgb(37, 139, 255) solid; border-radius: 20px; background-color: white;">
+            <div>
+                <h3
+                    style="color: white; background-color: rgb(37, 139, 255); margin: 0; padding: 10px; border-radius: 18px;">
+                    PASSWORD---
+                </h3>
+            </div>
+            <div style="padding-top: 20px; padding-bottom: 20px;">
+                <span style="padding-right: 2cm; padding-left: 2cm;">
+                    <label for="id">APPLICATION ID : </label>
+                    <input type="text" name="" id="id" value="123456789" readonly>
+                </span>
+                <span style="padding-right: 2cm; padding-left: 2cm;">
+                    <label for="PASS">PASSWORD : </label>
+                    <input type="password" name="" id="PASS">
+                </span>
+                <span style="padding-right: 2cm;">
+                    <label for="CON PASS">CONFIRM PASSWORD : </label>
+                    <input type="password" name="" id="CON PASS" required>
+                </span>
+            </div>
+        </section><br>
+        <div>
+            <center>
+                <input type="reset" value="RESET">
+                <input type="submit" value="SUBMIT NOW" onclick="alert('WARNING : NO CHNAGES CAN BE DONE AFTER SUBMIT')">
+            </center>
+        </div>
+    </form>
+    <br>
+    <p align="center">MADE BY SUMAN PAL😎😎</p>
+</body>
+
+</html>
